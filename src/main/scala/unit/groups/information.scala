@@ -9,6 +9,7 @@ package unit.groups
 
 import squants.UnitOfMeasure
 import squants.information._
+
 /**
   * information
   *
@@ -17,6 +18,7 @@ import squants.information._
   * @since 2024-12-09 17:40
   */
 object information {
+
   /** Base-2 units for Information defined by the IEC */
   object IECInformation extends UnitGroup[Information] {
     val units: Set[UnitOfMeasure[Information]] =

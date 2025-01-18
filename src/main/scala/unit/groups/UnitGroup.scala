@@ -10,6 +10,7 @@ package unit.groups
 import scala.collection.immutable.{Set, SortedSet}
 
 import squants.{Quantity, UnitOfMeasure}
+
 /**
   * UnitGroup
   *

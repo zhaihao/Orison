@@ -15,19 +15,19 @@ package syntax
   * @since 2024-12-10 11:31
   */
 object string {
-  extension(str:String) {
+  extension (str: String) {
     def underscores =
       "[A-Z\\d]".r.replaceAllIn(str,
-        { m =>
-          "_" + m.group(0).toLowerCase()
-        }
+                                { m =>
+                                  "_" + m.group(0).toLowerCase()
+                                }
       )
 
     def camel =
       "_([a-z\\d])".r.replaceAllIn(str,
-        { m =>
-          m.group(1).toUpperCase()
-        }
+                                   { m =>
+                                     m.group(1).toUpperCase()
+                                   }
       )
 
     /*
@@ -113,9 +113,9 @@ object string {
       if (count == 0) ""
       else if (count == 1) str
       else {
-        val len = str.length
+        val len      = str.length
         val longSize = len.toLong * count.toLong
-        val size = longSize.toInt
+        val size     = longSize.toInt
         if (size != longSize)
           throw new ArrayIndexOutOfBoundsException("Required array size too large: " + longSize)
 

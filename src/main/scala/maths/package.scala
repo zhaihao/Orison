@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2019.
  * OOON.ME ALL RIGHTS RESERVED.
@@ -14,7 +13,7 @@
   * 2019-01-07 10:54
   */
 //package object maths extends maths {
-package object maths  {
+package object maths {
 
   /** 支持 BigDecimal 的 e
     *

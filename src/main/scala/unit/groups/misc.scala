@@ -10,6 +10,7 @@ package unit.groups
 import squants.UnitOfMeasure
 import squants.mass._
 import squants.space.{AstronomicalUnits, Length, LightYears, Parsecs}
+
 /**
   * misc
   *
@@ -18,6 +19,7 @@ import squants.space.{AstronomicalUnits, Length, LightYears, Parsecs}
   * @since 2024-12-09 17:41
   */
 object misc {
+
   /** U.K. Customary units for mass */
   object UkCustomaryMasses extends UnitGroup[Mass] {
     val units: Set[UnitOfMeasure[Mass]] = Set(Ounces, Pounds, Stone, Kilopounds, Megapounds)

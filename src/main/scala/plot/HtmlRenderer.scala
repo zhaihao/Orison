@@ -46,10 +46,10 @@
 //                         |    <script type="text/javascript">
 //                         |        var specJson = $spec;
 //                         |        vegaEmbed(
-//                         |          '#viz$longId', 
+//                         |          '#viz$longId',
 //                         |          specJson,
 //                         |        {
-//                         |            theme: '${vega.embedConfig.theme}', 
+//                         |            theme: '${vega.embedConfig.theme}',
 //                         |            defaultStyle: true,
 //                         |            scaleFactor : 2
 //                         |          }
