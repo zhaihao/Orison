@@ -76,17 +76,17 @@ object XxHash64 extends FastHash[Long] {
       //        off         += 32
       //        unprocessed -= 32
       //      } while (unprocessed >= 32)
-      
+
       while {
         v1 = round(v1, unsafe.getLong(input, off))
         v2 = round(v2, unsafe.getLong(input, off + 8L))
         v3 = round(v3, unsafe.getLong(input, off + 16L))
         v4 = round(v4, unsafe.getLong(input, off + 24L))
-        off += 32
+        off         += 32
         unprocessed -= 32
-        
+
         unprocessed >= 32
-      } do()
+      } do ()
 
       hash = rotl64(v1, 1) + rotl64(v2, 7) + rotl64(v3, 12) + rotl64(v4, 18)
       hash = mergeRound(hash, v1)
