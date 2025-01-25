@@ -13,6 +13,7 @@ import squants.mass.{AreaDensity, KilogramsPerHectare, Mass, Tonnes}
 import squants.motion.{KilometersPerHour, Velocity}
 import squants.space.*
 import squants.time.{Days, Hours, Minutes, Time}
+
 /**
   * si
   *
@@ -31,7 +32,7 @@ object si {
       }
     }
   }
-  
+
   object expanded {
     import strict.implicits.mkSiUnitGroup
     object electro {
@@ -82,6 +83,5 @@ object si {
       }
     }
   }
-  
 
 }

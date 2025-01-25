@@ -14,6 +14,7 @@ import squants.space.Length
 import unit.groups.UnitGroup
 import unit.groups.information.{IECInformation, MetricInformation}
 import unit.groups.misc.{AstronomicalLengthUnitGroup, TroyMasses}
+
 /**
   * Formatters
   *
@@ -26,7 +27,7 @@ object Formatters {
 
   val TroyFormatter: DefaultFormatter[Mass] = new DefaultFormatter(TroyMasses)
 
-  val InformationMetricFormatter: DefaultFormatter[Information] =  new DefaultFormatter(MetricInformation)
+  val InformationMetricFormatter: DefaultFormatter[Information] = new DefaultFormatter(MetricInformation)
 
   val InformationIECFormatter: DefaultFormatter[Information] = new DefaultFormatter(IECInformation)
 }
