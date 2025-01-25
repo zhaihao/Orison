@@ -9,6 +9,7 @@ package unit.formatter
 
 import squants.Quantity
 import unit.groups.UnitGroup
+
 /**
   * DefaultFormatter
   *
