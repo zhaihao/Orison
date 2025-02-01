@@ -29,7 +29,7 @@ object Dependencies extends AutoPlugin {
     lazy val squants         = "org.typelevel"     %% "squants"                % "1.8.3"  % Provided
     lazy val argon2          = "de.mkammerer"       % "argon2-jvm"             % "2.11"   % Provided
     lazy val jbcrypt         = "org.mindrot"        % "jbcrypt"                % "0.4"    % Provided
-    lazy val oshi            = "com.github.oshi"    % "oshi-core-java11"       % "6.6.5"  % Provided
+    lazy val oshi            = "com.github.oshi"    % "oshi-core-java11"       % "6.6.6"  % Provided
     lazy val eval            = "com.eed3si9n.eval" %% "eval"                   % "0.3.0"  % Provided
 
     lazy val JAVA_MAIL = Seq(
